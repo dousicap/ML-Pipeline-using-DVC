@@ -9,14 +9,14 @@ conda activate test
 pip install -r requirements.txt
 
 
-## DVC Commands
+## DVC Commands => with dvc we don't need to use main.py
 
 git init
 
 dvc init
 
-dvc repro
+dvc repro => execute the pipeline
 
-dvc dag
+dvc dag => pipeline diagram
 
-dvc metrics show
+dvc metrics show => show the metrics
